@@ -20,8 +20,8 @@ IMPORT_START_DATE = None # format: '20190501'
     #- latitude - float, latitude of the location of the device
     #- longitude - float, longitude of the location of the device
 devices = [
-    {'device_id':'test_1','ip':'192.168.0.209', 'punch_direction': None, 'clear_from_device_on_fetch': False, 'latitude':0.0000,'longitude':0.0000},
-    {'device_id':'test_2','ip':'192.168.2.209', 'punch_direction': None, 'clear_from_device_on_fetch': False, 'latitude':0.0000,'longitude':0.0000}
+    {'device_id':'test_1','ip':'192.168.0.209', 'punch_direction': None, 'clear_from_device_on_fetch': False, 'latitude':0.0000,'longitude':0.0000, 'branch': 'Branch A'},
+    {'device_id':'test_2','ip':'192.168.2.209', 'punch_direction': None, 'clear_from_device_on_fetch': False, 'latitude':0.0000,'longitude':0.0000, 'branch': 'Branch B'}
 ]
 
 # Configs updating sync timestamp in the Shift Type DocType 
